@@ -1,0 +1,19 @@
+
+.List{
+  @apply text-[14px] font-semibold cursor-pointer
+}
+.para{
+  @apply text-slate-300 lg:text-[18px] sm:text-[16px] text-[13px] leading-normal mb-3 text-justify;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.h11{
+  font-family:Arial, Helvetica, sans-serif;
+  
+}
+.code112{
+  border: 1px solid rgb(202, 200, 200);
+  color: aliceblue;
+}
+.buttons{
+  float: right;
+}
