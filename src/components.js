@@ -44,10 +44,6 @@ export function Section1(){
             <div className="flex flex-col lg:flex-row justify-between items-center"> 
               <div className="flex-2 pt-16">
                 <div className="flex gap-4 mb-4">
-                <img src="./logooo.png" alt="" className="w-20 h-auto" />
-                {/*<h1 className="text-[56px] font-extrabold bg-gradient-to-r from-lime-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-                  Zero switch
-                </h1>*/}
                 <img src="./Zero-logo.png" alt="" className="h-16 w-auto" />
                 </div>
                 <h1 className="text-white font-extrabold xl:text-[52px] lg:text-[46px] md:text-[44px] sm:text-[40px] px-36px leading-tight">
@@ -59,10 +55,7 @@ export function Section1(){
                 </p>
                 <div className="gap-6 mt-12 flex-wrap lg:flex hidden">
                   <button className="bg-[#178249] px-6 py-4 rounded-2xl w-40 text-[18px] font-semibold">
-                    Get Started
-                  </button>
-                  <button className="bg-slate-300 text-indigo-800 px-6 py-4 rounded-2xl w-40 text-[18px] font-semibold">
-                    GitHub
+                    <a href="https://www.ollama.com/library/llama3.2:1b">llama</a>
                   </button>
                 </div>
               </div>
@@ -73,7 +66,14 @@ export function Section1(){
                     <div className='size-3 rounded-full bg-yellow-500'></div>
                     <div className='size-3 rounded-full bg-lime-700'></div>
                   </div>
-                  <p className="font-['Lucida_Console','monospace'] text-[12px]">Hello nice to meet you</p>
+                  <p className="font-['Lucida_Console','monospace'] text-[12px]">$ debug main.cpp</p>
+                  <p className="font-['Lucida_Console','monospace'] text-[12px]">🪛 Debugging main.cpp...</p>
+                  <br />
+                  <p className="font-['Lucida_Console','monospace'] text-[12px]">🛑 Error on line 12: 'cout' was not declared in this scope.</p>
+                  <p className="font-['Lucida_Console','monospace'] text-[12px]">
+  💡 Suggestion: Did you forget to include &lt;iostream&gt;?
+</p>
+
                 </div>
               </div>
               <div className="sm:gap-6 gap-4 mb-4 mt-4 lg:hidden flex buttons">
@@ -122,7 +122,11 @@ export function Section2(){
                     <div className='size-3 rounded-full bg-yellow-500'></div>
                     <div className='size-3 rounded-full bg-lime-700'></div>
                   </div>
-                  <p className="font-['Lucida_Console','monospace'] text-[12px] text-slate-300">Hello nice to meet you</p>
+                  <p className="font-['Lucida_Console','monospace'] text-[12px] text-slate-300">$ optimize sort.js</p>
+                  <p className="font-['Lucida_Console','monospace'] text-[12px] text-slate-300">🔍 Optimizing sort.js...</p>
+                  <br />
+                  <p className="font-['Lucida_Console','monospace'] text-[12px] text-slate-300">✅ Replaced inefficient nested loops with a built-in sort method.</p>
+                  <p className="font-['Lucida_Console','monospace'] text-[12px] text-slate-300">💡 Tip: Use `Array.prototype.sort()` for better performance in large datasets.</p>
             </div>
           </div>
           </div>
